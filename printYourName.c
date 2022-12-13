@@ -11,4 +11,6 @@ int main(){
   scanf("%s",surname);
   printf("Enter your age: ");
   scanf("%d\n",&age);
+  
+  printf("your name is %s,your surname %s, your age %d",name surname,&age);
   return  0;
