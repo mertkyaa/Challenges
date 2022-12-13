@@ -5,10 +5,13 @@
 int main(){
   char name[20],surname[40];
   int age;
+  
   printf("Enter your name: ");
   scanf("%s",name);
+  
   printf("Enter your surname: ");
   scanf("%s",surname);
+  
   printf("Enter your age: ");
   scanf("%d\n",&age);
   
